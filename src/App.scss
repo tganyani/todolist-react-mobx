@@ -1,0 +1,18 @@
+.App {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    .sub-app{
+        display: flex;
+        flex-flow: column nowrap;
+        align-items: center;
+        width: 80vw;
+        height: 100vh;
+        border: 2px solid black;
+    }
+}
+@media only screen and (max-width: 550px){
+    .sub-app{
+        width: 97vw !important;
+    }
+}

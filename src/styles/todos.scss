@@ -1,0 +1,27 @@
+.todos {
+    width: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: flex-start;
+    height: calc(100vh - 60px );
+    overflow-y: scroll;
+    div{
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-between;
+        width: 100%;
+        .edit-icon{
+            font-size: 2.2rem;
+            &:hover{
+                opacity: 0.4;
+            }
+        }
+        .delete-icon{
+            font-size: 2.2rem;
+            color: red;
+            &:hover{
+                opacity: 0.4;
+            }
+        }
+    }
+}
